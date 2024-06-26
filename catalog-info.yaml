@@ -6,11 +6,11 @@ metadata:
     jira-key: JSC
     language: Dockerfile
   annotations:
-    backstage.io/source-location: url:https://github.com/wandera/net-utils
+    github.com/project-slug: 'wandera/net-utils'
+    backstage.io/techdocs-ref: dir:.
 spec:
-  type: infrastructure
+  type: tooling
   lifecycle: production
   owner: zircon
   system: Connect
   description: Docker image for net-utils
-  
